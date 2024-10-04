@@ -13,10 +13,18 @@
 - Use previous lessons, labs, and HWs that you have completed as a guide!
 
   ![](https://cdn.wcs.org/2021/09/20/9ayncfth4i_238e79phl_Julie_Larsen_Maher_4987_Snow_Leopard_Askai_CPZ_10_22_13_hr.jpg)
+  
+## User Stories
+ - AAU I want seperate routes for Index and Show views for all animal types
+ - AAU I want to be able to create, update, and delete types, and individual animals in ThunderClient
+ - AAU I want to use at least 3 different datatypes across our DB
 
+![](https://www.sfzoo.org/wp-content/uploads/2021/03/img_penguin_mw_large.jpg)
+   
 ## Requirements
 - Your db should have two related objects, Type, and Animals. At least 3 Types with at least 3 Animal objects inside of each
 - Your types will be Reptile, Bird, and Mammal, and will hold an index of your Animal objects. (You can do Fish or Insect if you'd like instead of course)
+- Animal types will have a number of Boolean variables in them (ie hasFur, hasScales, hasBones...) and anything else you can think of
 - Animals should have the following properties : Name, scientific name, region, image url, and anything else you can think of
 - All models should have full CRUD functionality with Thunder Client
 
